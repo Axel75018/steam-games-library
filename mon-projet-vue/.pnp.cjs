@@ -29,7 +29,8 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@vitejs/plugin-vue", "virtual:10ea53878c1c4608385cab5fc24818b8d50008064b5313132344ddc96fbe744805b28d7bcc2ec99be563c5d8971dc9d55190d4d48f8430df238716d9b2958cf7#npm:5.2.1"],\
           ["vite", "virtual:10ea53878c1c4608385cab5fc24818b8d50008064b5313132344ddc96fbe744805b28d7bcc2ec99be563c5d8971dc9d55190d4d48f8430df238716d9b2958cf7#npm:6.1.0"],\
-          ["vue", "virtual:10ea53878c1c4608385cab5fc24818b8d50008064b5313132344ddc96fbe744805b28d7bcc2ec99be563c5d8971dc9d55190d4d48f8430df238716d9b2958cf7#npm:3.5.13"]\
+          ["vue", "virtual:10ea53878c1c4608385cab5fc24818b8d50008064b5313132344ddc96fbe744805b28d7bcc2ec99be563c5d8971dc9d55190d4d48f8430df238716d9b2958cf7#npm:3.5.13"],\
+          ["vue-router", "virtual:10ea53878c1c4608385cab5fc24818b8d50008064b5313132344ddc96fbe744805b28d7bcc2ec99be563c5d8971dc9d55190d4d48f8430df238716d9b2958cf7#npm:4.5.0"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -630,6 +631,15 @@ const RAW_RUNTIME_STATE =
           ["@vue/compiler-ssr", "npm:3.5.13"],\
           ["@vue/compiler-dom", "npm:3.5.13"],\
           ["@vue/shared", "npm:3.5.13"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@vue/devtools-api", [\
+      ["npm:6.6.4", {\
+        "packageLocation": "../../../../../../home/axel/.yarn/berry/cache/@vue-devtools-api-npm-6.6.4-495c1fc100-10c0.zip/node_modules/@vue/devtools-api/",\
+        "packageDependencies": [\
+          ["@vue/devtools-api", "npm:6.6.4"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1285,7 +1295,8 @@ const RAW_RUNTIME_STATE =
           ["mon-projet-vue", "workspace:."],\
           ["@vitejs/plugin-vue", "virtual:10ea53878c1c4608385cab5fc24818b8d50008064b5313132344ddc96fbe744805b28d7bcc2ec99be563c5d8971dc9d55190d4d48f8430df238716d9b2958cf7#npm:5.2.1"],\
           ["vite", "virtual:10ea53878c1c4608385cab5fc24818b8d50008064b5313132344ddc96fbe744805b28d7bcc2ec99be563c5d8971dc9d55190d4d48f8430df238716d9b2958cf7#npm:6.1.0"],\
-          ["vue", "virtual:10ea53878c1c4608385cab5fc24818b8d50008064b5313132344ddc96fbe744805b28d7bcc2ec99be563c5d8971dc9d55190d4d48f8430df238716d9b2958cf7#npm:3.5.13"]\
+          ["vue", "virtual:10ea53878c1c4608385cab5fc24818b8d50008064b5313132344ddc96fbe744805b28d7bcc2ec99be563c5d8971dc9d55190d4d48f8430df238716d9b2958cf7#npm:3.5.13"],\
+          ["vue-router", "virtual:10ea53878c1c4608385cab5fc24818b8d50008064b5313132344ddc96fbe744805b28d7bcc2ec99be563c5d8971dc9d55190d4d48f8430df238716d9b2958cf7#npm:4.5.0"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -1742,6 +1753,29 @@ const RAW_RUNTIME_STATE =
         "packagePeers": [\
           "@types/typescript",\
           "typescript"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["vue-router", [\
+      ["npm:4.5.0", {\
+        "packageLocation": "../../../../../../home/axel/.yarn/berry/cache/vue-router-npm-4.5.0-eade46eba9-10c0.zip/node_modules/vue-router/",\
+        "packageDependencies": [\
+          ["vue-router", "npm:4.5.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:10ea53878c1c4608385cab5fc24818b8d50008064b5313132344ddc96fbe744805b28d7bcc2ec99be563c5d8971dc9d55190d4d48f8430df238716d9b2958cf7#npm:4.5.0", {\
+        "packageLocation": "./.yarn/__virtual__/vue-router-virtual-d31e6edc2b/7/home/axel/.yarn/berry/cache/vue-router-npm-4.5.0-eade46eba9-10c0.zip/node_modules/vue-router/",\
+        "packageDependencies": [\
+          ["vue-router", "virtual:10ea53878c1c4608385cab5fc24818b8d50008064b5313132344ddc96fbe744805b28d7bcc2ec99be563c5d8971dc9d55190d4d48f8430df238716d9b2958cf7#npm:4.5.0"],\
+          ["@types/vue", null],\
+          ["@vue/devtools-api", "npm:6.6.4"],\
+          ["vue", "virtual:10ea53878c1c4608385cab5fc24818b8d50008064b5313132344ddc96fbe744805b28d7bcc2ec99be563c5d8971dc9d55190d4d48f8430df238716d9b2958cf7#npm:3.5.13"]\
+        ],\
+        "packagePeers": [\
+          "@types/vue",\
+          "vue"\
         ],\
         "linkType": "HARD"\
       }]\

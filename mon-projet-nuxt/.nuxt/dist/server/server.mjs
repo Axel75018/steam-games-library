@@ -1,0 +1,1 @@
+export { default } from "file:///media/axel/WDC%20WD20JDRW-11C/Dev/steam-games-list/mon-projet-nuxt/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
